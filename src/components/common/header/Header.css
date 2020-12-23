@@ -1,0 +1,28 @@
+.header {
+    background-color: rgb(8, 4, 48);
+    color: azure;
+    height: 100px;
+    width: 100%;
+}
+
+.header-left__logo {
+    float: left;
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.header-logo {
+    font-size: 50px;
+    text-decoration: inherit;
+    color: inherit;
+    outline: none;
+}
+
+.header-right__navbar {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    float: right;
+    padding-right: 20px;
+    margin-top: 50px;
+}

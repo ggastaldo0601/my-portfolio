@@ -1,0 +1,16 @@
+.footer {
+    background-color: rgb(8, 4, 48);
+    color: azure;
+    height: 100px;
+    width: 100%;
+}
+
+.footer-center {
+    text-decoration: inherit;
+    color: inherit;
+    text-align: center;
+}
+
+.footer-right__navbar {
+    
+}
