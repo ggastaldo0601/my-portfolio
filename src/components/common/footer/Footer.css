@@ -1,16 +1,21 @@
 .footer {
-    background-color: rgb(8, 4, 48);
+    background-color: rgb(7, 5, 34);
     color: azure;
     height: 100px;
     width: 100%;
+    position: relative;
 }
 
 .footer-center {
     text-decoration: inherit;
     color: inherit;
     text-align: center;
+    padding-top: 20px;
 }
 
-.footer-right__navbar {
-    
+.footer-navbar {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    float: right;
 }

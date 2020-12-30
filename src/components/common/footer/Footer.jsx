@@ -7,7 +7,7 @@ function Footer () {
 
         <section className="footer">
             <section className="footer-center">
-            <p>Giovanni Gastaldo &copy; </p>
+            Giovanni Gastaldo &copy; 
             </section>
             <section className="footer-navbar">
             
