@@ -1,7 +1,10 @@
-import React from 'react';
-import logo from './../../../res/img/GG_Pixel.png';  
-
+import React from 'react';  
+import Intro from './intro/Intro';
+import About from './about/About';
+import Portfolio from './portfolio/Portfolio';
+import Contact from './contact/Contact';
 import './Body.css';
+
 
 function Body () {
 
@@ -9,31 +12,16 @@ function Body () {
 
         <section className="body">
             <section className="body-intro">
-            Hello, I'm Giovanni Gastaldo.<br></br> 
-            I'm a Software Engineer.
+            <Intro />
             </section>
-            <section className="body-top__container">
-            <section className="body-img__speed">
-                <img src={logo} alt="Logo"/>
-                <h2>Speed</h2>
-                <p>This is a description.</p>
+            <section className="body-about">
+            <About />
             </section>
-            <section className="body-img__intuit">
-                <img src={logo} alt="Logo"/>
-                <h2>Intuitive</h2>
-                <p>This is a description of this img.</p>
+            <section className="body-portfolio">
+            <Portfolio />
             </section>
-            <section className="body-img__respon">
-                <img src={logo} alt="Logo"/>
-                <h2>Responsive</h2>
-                <p>This is a description of this img.</p>
-            </section>
-            </section>
-            <section className="body-bottom__left">
-
-            </section>
-            <section className="body-bottom__right"> 
-
+            <section className="body-contact"> 
+            <Contact />
             </section>
         </section>
 
