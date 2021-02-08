@@ -6,16 +6,19 @@
 }
 
 .img-speed {
-    margin-left: 80px;
+    /*margin-left: 80px;*/
+    width: 150px;
     margin-right: 200px;
     text-align: center;
 }
 
 .img-intuitive {
+    width: 150px;
     text-align: center;
 }
 
 .img-responsive {
+    width: 150px;
     margin-left: 200px;
     text-align: center;
 }

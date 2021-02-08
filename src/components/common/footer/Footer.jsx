@@ -7,7 +7,7 @@ function Footer () {
 
         <section className="footer">
             <section className="footer-center">
-            Giovanni Gastaldo &copy; 
+            Giovanni Gastaldo &copy; 2021 
             </section>
             <section className="footer-navbar">
             
