@@ -21,7 +21,7 @@ function About () {
             <section className="img-responsive">
                 <img src={logo} alt="Logo"/>
                 <h2>Responsive</h2>
-                <p>Lag free interaction on all devices.</p>
+                <p>Lag free interaction on any device.</p>
             </section>
         </section>
 

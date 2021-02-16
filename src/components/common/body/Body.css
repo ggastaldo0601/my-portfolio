@@ -1,4 +1,9 @@
 .body {
-    background-color: black;
+    min-height: 1200px;
+    background-image: url(./../../../res/img/Taking_A_Walk_BW.jpg);
+    background-size: cover;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
