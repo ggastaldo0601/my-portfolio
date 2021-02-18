@@ -1,5 +1,10 @@
 .portfolio {
     text-align: center;
-    height: 300px;
     color: azure;
-}
+    background-color: rgb(0, 0, 0, 0.8);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 400px;
+    width: 80%;
+}         

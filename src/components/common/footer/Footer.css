@@ -1,20 +1,20 @@
 .footer {
-    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100px;
     width: 100%;
-    position: relative;
 }
 
 .footer-center {
-    text-decoration: inherit;
-    color: inherit;
-    text-align: center;
-    padding-top: 20px;
+   color: azure;
+   font-family: 'Courier New', Courier, monospace;
 }
 
-.footer-navbar {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    float: right;
+.footer-ig {
+    outline: none;
+}
+
+.footer-tw {
+    outline: none;
 }

@@ -1,7 +1,8 @@
 import React from 'react';  
 import Intro from './intro/Intro';
-import About from './about/About';
+import Characteristic from './characteristic/Characteristic';
 import Portfolio from './portfolio/Portfolio';
+import About from './about/About';
 import './Body.css';
 
 
@@ -12,6 +13,9 @@ function Body () {
         <section className="body">
             <section className="body-intro">
             <Intro />
+            </section>
+            <section className="body-characteristic">
+            <Characteristic />
             </section>
             <section className="body-about">
             <About />

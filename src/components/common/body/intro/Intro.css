@@ -1,6 +1,7 @@
 .intro-container {
     align-items: center;
     display: flex;
+    flex: 1 1 10%;
     justify-content: center;
     text-align: center;
     padding-top: 100px;
@@ -8,9 +9,9 @@
 
 .intro-container h1 {
     color: azure;
+    background-color: black;
+    font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
     padding: 30px;
-    background-color: black;
     border-radius: 30px;
-    font-size: 30px;
 }

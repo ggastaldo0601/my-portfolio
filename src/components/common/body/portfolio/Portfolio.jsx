@@ -5,9 +5,7 @@ function Portfolio () {
 
     return (
 
-        <section className="portfolio">
-            Portfolio
-        </section>
+    <section/>
 
     )
 

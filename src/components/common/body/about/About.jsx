@@ -1,33 +1,29 @@
 import React from 'react';
-import logo from './../../../../res/img/GG_Pixel.png';
+
 import './About.css';
 
-function About () {
+function About ()   {
 
-    return (
-
-        <section className="container">
-            <section className="img-speed">
-                <img src={logo} alt="Logo"/>
-                <h2>Speed</h2>
-                <p>Fast load times.</p>
-            </section>
-            <section className="img-intuitive">
-                <img src={logo} alt="Logo"/>
-                <h2>Intuitive</h2>
-                <p>Minimalistic and easy to
-                   use UI/UX.</p>
-            </section>
-            <section className="img-responsive">
-                <img src={logo} alt="Logo"/>
-                <h2>Responsive</h2>
-                <p>Lag free interaction on any device.</p>
-            </section>
+    return(
+        <section className="about">
+        <section className="about-me">
+       
+        <h2>Who am I?</h2>
+        <p>I'm a Software Engineer in Eustis, FL.<br/>
+           I have a passion for learning and<br/> 
+           I'm enthusiastic about creating intuitive<br/> 
+           and dynamic user experiences.
+        </p>
         </section>
-
+        <section className="about-skills">
+        <h2>Skills</h2>
+        <label>C#</label>
+        <label>Java</label>
+        <label>Javascript</label>
+        </section>
+    </section>
     )
 
 }
-
 
 export default About;
