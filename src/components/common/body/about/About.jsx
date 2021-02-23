@@ -20,6 +20,10 @@ function About ()   {
         <label>C#</label>
         <label>Java</label>
         <label>Javascript</label>
+        <label>HTML</label>
+        <label>CSS</label>
+        <label>SQL</label>
+
         </section>
     </section>
     )
